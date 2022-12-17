@@ -1,7 +1,8 @@
 # Computing for Data Science Final Project (BSE 22/23)
 ## Customer Churn Prediction
 Authors: Santiago Manotas-Arroyave, Catalina Odizzio, Agostina Alexandra Pissinis, Shaney Sze
-Contents
+
+**Contents**
 - [What is `lumpia`?](#what-is-lumpia)
 - [Installation](#installation)
 - [Scaling Guidelines](#scaling-guidelines)
