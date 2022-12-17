@@ -33,4 +33,4 @@ Before creating your own library which extends `lumpia`, please consider would t
     - Define the desired metrics to be added.  By default, `lumpia` utilizes the `get_roc_auc_score` and the ROC area under curve method to score the model
 
 ## Contributing
-Want to contribute to `lumpia`? If you want to add any new agents or environments, do not hesitate to [open an issue](https://github.com/smanotasa/CDSFP/issues/new).!
+Want to contribute to `lumpia`? Feel free to add any new agents or environments by [opening an issue](https://github.com/smanotasa/CDSFP/issues/new)!
