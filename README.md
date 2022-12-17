@@ -22,7 +22,7 @@ Before creating your own library which extends `lumpia`, please consider would t
 
 - *Adding Features*
     - Navigate to `src/lumpia/features/features.py`
-    - Under the `features` class, define the desired functions to be added.  By default, `lumpia` utilizes `gen_dummies`, `normalize`, and `take_log` functions
+    - Define the desired functions to be added.  By default, `lumpia` utilizes `gen_dummies`, `normalize`, and `take_log` functions
 
 - *Adding Models*
     - Navigate to `src/lumpia/model/model.py`
