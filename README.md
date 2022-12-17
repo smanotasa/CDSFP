@@ -33,4 +33,7 @@ Before creating your own library which extends `lumpia`, please consider would t
     - Define the desired metrics to be added.  By default, `lumpia` utilizes the `get_roc_auc_score` and the ROC area under curve method to score the model
 
 ## Contributing
-Want to contribute to `lumpia`? Feel free to add any new agents or environments by [opening an issue](https://github.com/smanotasa/CDSFP/issues/new)!
+Want to contribute to `lumpia`? Feel free to add any new agents or environments by [opening an issue](https://github.com/smanotasa/CDSFP/issues/new)! Additionally, make sure any new code is properly accompanied by working through the following checklist:
+  - [ ] Tests have been added for any new functionality in ``CDSFP/tests``
+  - [ ] All other tests still pass (when running ``pytest`` in the root directory)
+  - [ ] Any functions added have [``numpy`` style docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html)
