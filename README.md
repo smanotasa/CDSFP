@@ -3,9 +3,9 @@
 Authors: Santiago Manotas-Arroyave, Catalina Odizzio, Agostina Alexandra Pissinis, Shaney Sze
 Contents
 - What is `lumpia`?
-- Installation
-- Scaling Guidelines
-- Contributing
+- [Installation](#installation)
+- [Scaling Guidelines]
+- [Contributing](#contributing)
 
 
 ## What is `lumpia`?
