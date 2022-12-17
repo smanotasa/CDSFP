@@ -17,14 +17,17 @@ pip install -U git+https://github.com/smanotasa/CDSFP.git
 Before creating your own library which extends `lumpia`, please consider would the extension be also useful also for general usage. If it could be useful also for general usage, please create a new issue describing the enhancement request and even better if the issue is backed up by a pull request.
 
 - *Adding Preprocessors*
-    - Navigate to `src/lumpia/pre_processing'.
+    - Navigate to `src/lumpia/pre_processing/pre_processing.py'.
     - Under the `preprocessor` class, define the desired functions to be added.  By default, `lumpia` utilizes `drop_nan` and `fill_mean` functions.
 
 - *Adding Features*
-    -  hh
+    - Navigate to `src/lumpia/features/features.py'.
+    - Under the `features` class, define the desired functions to be added.  By default, `lumpia` utilizes `gen_dummies`, `normalize`, and `take_log` functions.
 
 - *Adding Models*
-    - gg
+    - Navigate to `src/lumpia/model/model.py'.
+    - Under the `train_model` class, define the desired functions to be added.  By default, `lumpia` utilizes the `train_model` and uses random forest to predict values.
 
 - *Adding Metrics*
-    - pp
+    - Navigate to `src/lumpia/evaluation/evaluation.py'.
+    - Define the desired metrics to be added.  By default, `lumpia` utilizes the `get_roc_auc_score` and the ROC area under curve method to score the model.
