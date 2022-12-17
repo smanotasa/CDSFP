@@ -2,9 +2,9 @@
 ## Customer Churn Prediction
 Authors: Santiago Manotas-Arroyave, Catalina Odizzio, Agostina Alexandra Pissinis, Shaney Sze
 Contents
-- What is `lumpia`?
+- What is `lumpia`?(#what-is-lumpia)
 - [Installation](#installation)
-- [Scaling Guidelines]
+- [Scaling Guidelines](#scaling-guidelines)
 - [Contributing](#contributing)
 
 
