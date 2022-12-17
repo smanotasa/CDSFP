@@ -10,5 +10,5 @@ class Testfeatures(unittest.TestCase):
         data = pd.DataFrame({'col': ['Caucasian','Hispanic','Caucasian','Asian']})
         column = ['col'] 
         output = gen_dummies(data,column)
-        expected_output = pd.DataFrame({'col_Caucasian': [1,0,1,0], 'col_Hispanic': [0,1,0,0]})
+        expected_output = pd.DataFrame({'col_Asian': [0,0,0,1],'col_Caucasian': [1,0,1,0], 'col_Hispanic': [0,1,0,0]})
         assert_frame_equal(output,expected_output,check_dtype=False)
