@@ -26,7 +26,7 @@ Before creating your own library which extends `lumpia`, please consider would t
 
 - *Adding Models*
     - Navigate to `src/lumpia/model/model.py`
-    - Under the `train_model` class, define the desired functions to be added.  By default, `lumpia` utilizes the `train_model` and uses random forest to predict values
+    - Define the desired functions to be added.  By default, `lumpia` utilizes the `train_model` and uses random forest to predict values
 
 - *Adding Metrics*
     - Navigate to `src/lumpia/evaluation/evaluation.py`
