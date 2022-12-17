@@ -2,7 +2,7 @@ import unittest
 import pytest
 from pandas.testing import assert_frame_equal
 #%%
-from src.hw5.hw5 import *
+from src.lumpia import *
 #%%
 import pandas as pd
 from datetime import datetime
