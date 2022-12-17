@@ -1,4 +1,4 @@
-# Computing for Data Science Final Project (BSE 2022)
+# Computing for Data Science Final Project (BSE 22/23)
 ## Customer Churn Prediction
 Authors: Santiago Manotas-Arroyave, Catalina Odizzio, Agostina Alexandra Pissinis, Shaney Sze
 
