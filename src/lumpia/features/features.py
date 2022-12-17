@@ -13,5 +13,5 @@ def normalize(df: pd.DataFrame, cols: list):
     return scaled_df
 
 def take_log(df: pd.DataFrame, cols: list):
-    df[cols] = df[cols].apply(np.log)
+    df.loc[:, cols] = np.log(df[cols])
     return df
