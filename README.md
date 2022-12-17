@@ -16,11 +16,15 @@ pip install -U git+https://github.com/smanotasa/CDSFP.git
 ## Scaling 
 Before creating your own library which extends `lumpia`, please consider would the extension be also useful also for general usage. If it could be useful also for general usage, please create a new issue describing the enhancement request and even better if the issue is backed up by a pull request.
 
-- Adding Preprocessors
-    - ff
+- *Adding Preprocessors*
+    - Navigate to `src/lumpia/pre_processing'.
+    - Under the `preprocessor` class, define the desired functions to be added.  By default, `lumpia` utilizes `drop_nan` and `fill_mean` functions.
 
-### Adding Features
+- *Adding Features*
+    -  hh
 
-### Adding Models
+- *Adding Models*
+    - gg
 
-### Adding Metrics
+- *Adding Metrics*
+    - pp
