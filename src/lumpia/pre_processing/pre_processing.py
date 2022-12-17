@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def drop_nan(df: pd.DataFrame, cols: list):
 
