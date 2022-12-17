@@ -9,5 +9,5 @@ Lumpia is a library to predict customer churns: run a prediction model, create f
 Install the latest version for a stable release.
 
 ```bash
-pip install -U git+https://github.com/smanotasa/CDSFP.git[default]
+pip install -U git+https://github.com/smanotasa/CDSFP.git
 ```
