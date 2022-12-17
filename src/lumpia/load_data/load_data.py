@@ -10,5 +10,5 @@ def read_data(path: str):
     Returns:
         df (dataframe): database in pandas format
     '''
-    df = pd.read_csv(path, index_col=0)
+    df = pd.read_csv(path, sep=';')
     return df
