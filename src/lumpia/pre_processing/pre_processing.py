@@ -1,10 +1,11 @@
 import numpy as np
 
-def drop_nan(self):
-     for i in self.column:
-          self.df = self.df.dropna(subset=[i])
-     return self.df
+def drop_nan(df: pd.DataFrame, cols: list):
 
-def fill_mean(self):
-     self.df[self.column] = self.df[self.column].fillna(np.mean(self.df[self.column]))
-     return self.df
+    cleaned_df = df.dropna(axis=0, subset=cols, how='any')
+    return cleaned_df
+
+def fill_mean(df: pd.DataFrame, cols: list):
+
+    df[cols] = df[cols].fillna(df.mean().iloc[0])
+    return df 
