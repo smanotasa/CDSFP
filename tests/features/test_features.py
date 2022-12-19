@@ -4,15 +4,16 @@ from lumpia.features.features import normalize
 from lumpia.features.features import take_log
 import unittest
 import pandas as pd
+import numpy as np
 from pandas.testing import assert_frame_equal
 
 class Testfeatures(unittest.TestCase):
     
-    def test_gen_dummy(self):
-        data = pd.DataFrame({'col': ['Caucasian','Hispanic','Caucasian','Asian']})
+    def test_gen_dummies(self):
+        data = pd.DataFrame({'col': ['Caucasian','Hispanic','Caucasian','Caucasian']})
         column = ['col'] 
         output = gen_dummies(data,column)
-        expected_output = pd.DataFrame({'col_Asian': [0,0,0,1],'col_Caucasian': [1,0,1,0], 'col_Hispanic': [0,1,0,0]})
+        expected_output = pd.DataFrame({'col_Hispanic': [0,1,0,0]})
         assert_frame_equal(output,expected_output,check_dtype=False)
     
     def test_normalize(self):
