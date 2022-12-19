@@ -7,12 +7,9 @@ def gen_dummies(df: pd.DataFrame, cols: list):
     return dummies_df
 
 def normalize(df: pd.DataFrame, cols: list):
-    df_toscale = df.loc[:, df.columns.isin(cols)]
     scaler = StandardScaler()
-    scaled = scaler.fit_transform(df_toscale)
-    scaled_df = pd.DataFrame(scaled, columns=cols)
-    df_appended = pd.concat([scaled_df, df.loc[:, ~df.columns.isin(cols)]], axis=1)
-    return df_appended
+    df[cols] = scaler.fit_transform(df_toscale[cols])
+    return df
 
 
 def take_log(df: pd.DataFrame, cols: list):
