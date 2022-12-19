@@ -8,7 +8,7 @@ def gen_dummies(df: pd.DataFrame, cols: list):
 
 def normalize(df: pd.DataFrame, cols: list):
     scaler = StandardScaler()
-    df[cols] = scaler.fit_transform(df_toscale[cols])
+    df[cols] = scaler.fit_transform(df[cols])
     return df
 
 
