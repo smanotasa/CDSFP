@@ -20,7 +20,10 @@ class Testfeatures(unittest.TestCase):
         data = pd.DataFrame({'Hours': [1,2,3], 'Mins': [20,10,50]})
         column = ['Hours','Mins']
         output = normalize(data,column)
-        expected_output = pd.DataFrame({'Hours': [-1.224745,0.000000,1.224745], 'Mins': [-0.392232,-0.980581,1.372813]})
+        expected_output = pd.DataFrame(
+            {'Hours': [-1.224744871391589, 0.000000, 1.224744871391589],
+             'Mins': [-0.3922322702763682, -0.9805806756909203, 1.3728129459672884]}
+        )
         assert_frame_equal(output,expected_output,check_dtype=False)
 
     def test_take_log(self):
