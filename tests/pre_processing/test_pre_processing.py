@@ -4,6 +4,7 @@ from pandas.testing import assert_frame_equal
 from lumpia.pre_processing.pre_processing import drop_nan
 from lumpia.pre_processing.pre_processing import fill_mean
 import pandas as pd
+import numpy as np
 
 class Testdatacleanup(unittest.TestCase):
     
