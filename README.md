@@ -24,7 +24,7 @@ Before creating your own library which extends `lumpia`, please consider would t
 
 - *Adding Preprocessors*
     - Navigate to `src/lumpia/pre_processing/pre_processing.py`
-    - Under the `preprocessor` class, define the desired functions to be added.  By default, `lumpia` utilizes `drop_nan` and `fill_mean` functions
+    - Define the desired functions to be added.  By default, `lumpia` utilizes `drop_nan` and `fill_mean` functions
 
 - *Adding Features*
     - Navigate to `src/lumpia/features/features.py`
